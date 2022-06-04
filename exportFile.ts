@@ -105,3 +105,13 @@ export const AnonymousClass = class {};
 export const instance1 = new Class1();
 // ex6.匿名クラスのインスタンスのexport
 export const instance2 = new (class {})();
+
+// インターフェースのexport
+// ex1.インターフェースの定義と同時にexport
+export interface Interface1 {}
+// ex2.インターフェースの定義とexport分ける
+interface Interface2 {}
+export { Interface2 };
+// ex3.別名でexport
+interface Interface3 {}
+export { Interface3 as Interface4 };

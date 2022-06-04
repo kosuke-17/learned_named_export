@@ -89,3 +89,11 @@ console.log(instance1);
 // ex6.匿名クラスのインスタンスのexport
 import { instance2 } from "./exportFile";
 console.log(instance2);
+
+// インターフェースのexport
+// ex1.インターフェースの定義と同時にexport
+import { Interface1 } from "./exportFile";
+// ex2.インターフェースの定義とexport分ける
+import { Interface2 } from "./exportFile";
+// ex3.別名でexport
+import { Interface4 } from "./exportFile";

@@ -32,3 +32,8 @@
 // ex4.匿名クラスのexport
 // ex5.インスタンスのexport
 // ex6.匿名クラスのインスタンスのexport
+
+// インターフェースのexport
+// ex1.インターフェースの定義と同時にexport
+// ex2.インターフェースの定義とexport分ける
+// ex3.別名でexport
