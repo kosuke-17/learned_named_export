@@ -27,17 +27,17 @@ export const num10 = 10,
   num12 = 12;
 
 // ex5.別の変数名としてexport
-const fazz = 13;
-export { fazz as num13 };
+const fazz1 = 13;
+export { fazz1 as num13 };
 
 // ex6.変数の情報をexport
-const fizz = "FIZZ";
-export type { fizz };
+const fizz1 = "FIZZ";
+export type { fizz1 };
 // 注意: 「 export type fizz 」 とすると`type fizz = any 型が必要です。`というエラーが発生する
 
 // ex7.変数の型だけをexport
-const fuzz = "FUZZ";
-export type fuzz = typeof fuzz;
+const fuzz1 = "FUZZ";
+export type fuzz1 = typeof fuzz1;
 
 // 関数のexport
 // 匿名関数はnamed exportできない。export defaultになる。
@@ -73,3 +73,19 @@ export const [num17, ...numArr1] = arr4;
 // 実質
 // export const num17 = arr4[0]
 // export const numArr = [arr4[1],arr4[2]]
+
+// オブジェクトのexport
+// ex1.オブジェクトの定義と同時にexport
+export const obj1 = { fazz: 1, fizz: 2 };
+// ex2.型の制約をしつつexport
+export const obj2 = { fazz: 1 as const, fizz: 2 };
+export const obj3 = { fazz: 1, fizz: 2 } as const;
+// ex3.分割代入しながらexport
+const obj4 = { fazz2: 1, fizz2: 2 };
+export const { fazz2, fizz2 } = obj4;
+// ex4.分割代入と名前変更しながらexport
+const obj5 = { fazz3: 1, fizz3: 2 };
+export const { fazz3: reFazz3, fizz3: reFizz3 } = obj5;
+// ex5.分割代入と余剰パターンに分けながらexport
+const obj6 = { fazz4: 1, fizz4: 2, fuzz4: 3 };
+export const { fazz4, ...reObj } = obj6;

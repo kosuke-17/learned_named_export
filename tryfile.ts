@@ -17,3 +17,10 @@
 // ex2.タプル型としてexport
 // ex3.分割代入しながらexport
 // ex4.配列を要素と余剰部分に分けながらexport
+
+// オブジェクトのexport
+// ex1.オブジェクトの定義と同時にexport
+// ex2.型の制約をしつつexport
+// ex3.分割代入しながらexport
+// ex4.分割代入と名前変更しながらexport
+// ex5.分割代入と余剰パターンに分けながらexport
