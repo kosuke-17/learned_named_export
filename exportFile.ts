@@ -125,3 +125,14 @@ export { Type2 };
 // ex3.型エイリアスを別名でexport
 type Type3 = "OK" | "NG";
 export { Type3 as Type4 };
+
+// 名前空間のexport
+// ex1.名前空間を定義しつつ、export
+export namespace FizzSpace1 {
+  export const value = 1;
+}
+// ex2.名前空間とexport分ける
+namespace FizzSpace2 {
+  export const value = 1;
+}
+export { FizzSpace2 };

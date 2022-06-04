@@ -105,3 +105,9 @@ import { Type1 } from "./exportFile";
 import { Type2 } from "./exportFile";
 // ex3.型エイリアスを別名でexport
 import { Type4 } from "./exportFile";
+
+// 名前空間のexport
+// ex1.名前空間を定義しつつ、export
+import { FizzSpace1 } from "./exportFile";
+// ex2.名前空間とexport分ける
+import { FizzSpace2 } from "./exportFile";

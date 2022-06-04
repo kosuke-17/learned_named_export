@@ -42,3 +42,7 @@
 // ex1.型エイリアスの定義と同時にexport
 // ex2.型エイリアスの定義とexport分ける
 // ex3.型エイリアスを別名でexport
+
+// 名前空間のexport
+// ex1.名前空間を定義しつつ、export
+// ex2.名前空間とexport分ける
