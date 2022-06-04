@@ -69,3 +69,23 @@ console.log(reFizz3);
 import { fazz4, reObj } from "./exportFile";
 console.log(fazz4);
 console.log(reObj);
+
+// クラスのexport
+// ex1.クラスの定義と同時にexport
+import { Class1 } from "./exportFile";
+console.log(Class1);
+// ex2.クラスの定義とexport分ける
+import { Class2 } from "./exportFile";
+console.log(Class2);
+// ex3.クラスの型だけexport
+import { Class3 } from "./exportFile";
+let cla: Class3;
+// ex4.匿名クラスのexport
+import { AnonymousClass } from "./exportFile";
+console.log(AnonymousClass);
+// ex5.インスタンスのexport
+import { instance1 } from "./exportFile";
+console.log(instance1);
+// ex6.匿名クラスのインスタンスのexport
+import { instance2 } from "./exportFile";
+console.log(instance2);

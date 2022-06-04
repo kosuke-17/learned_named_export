@@ -89,3 +89,19 @@ export const { fazz3: reFazz3, fizz3: reFizz3 } = obj5;
 // ex5.分割代入と余剰パターンに分けながらexport
 const obj6 = { fazz4: 1, fizz4: 2, fuzz4: 3 };
 export const { fazz4, ...reObj } = obj6;
+
+// クラスのexport
+// ex1.クラスの定義と同時にexport
+export class Class1 {}
+// ex2.クラスの定義とexport分ける
+class Class2 {}
+export { Class2 };
+// ex3.クラスの型だけexport
+class Class3 {}
+export type { Class3 };
+// ex4.匿名クラスのexport
+export const AnonymousClass = class {};
+// ex5.インスタンスのexport
+export const instance1 = new Class1();
+// ex6.匿名クラスのインスタンスのexport
+export const instance2 = new (class {})();

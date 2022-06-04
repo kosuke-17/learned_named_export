@@ -24,3 +24,11 @@
 // ex3.分割代入しながらexport
 // ex4.分割代入と名前変更しながらexport
 // ex5.分割代入と余剰パターンに分けながらexport
+
+// クラスのexport
+// ex1.クラスの定義と同時にexport
+// ex2.クラスの定義とexport分ける
+// ex3.クラスの型だけexport
+// ex4.匿名クラスのexport
+// ex5.インスタンスのexport
+// ex6.匿名クラスのインスタンスのexport
