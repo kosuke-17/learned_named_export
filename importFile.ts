@@ -15,4 +15,18 @@ console.log({ num10, num11, num12 });
 import { num13 } from "./exportFile";
 console.log(num13);
 // ex6.変数の情報をexport
+import { fizz } from "./exportFile";
+let okFizz: typeof fizz;
 // ex7.変数の型だけをexport
+import { fuzz } from "./exportFile";
+let okFuzz: fuzz;
+
+// 関数のexport
+// ex1.関数の定義と同時にexport
+import { func1, func2 } from "./exportFile";
+func1();
+func2();
+// ex2.関数の定義とexportを分ける
+import { func3, func4 } from "./exportFile";
+func3();
+func4();

@@ -6,3 +6,8 @@
 // ex5.別の変数名としてexport
 // ex6.変数の情報をexport
 // ex7.変数の型だけをexport
+
+// 関数のexport
+// ex1.関数の定義と同時にexport
+// ex2.関数の定義とexportを分ける
+// ex3.

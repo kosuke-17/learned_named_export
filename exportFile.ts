@@ -38,3 +38,23 @@ export type { fizz };
 // ex7.変数の型だけをexport
 const fuzz = "FUZZ";
 export type fuzz = typeof fuzz;
+
+// 関数のexport
+// 匿名関数はnamed exportできない。export defaultになる。
+// ex1.関数の定義と同時にexport
+export function func1() {
+  console.log("func1実行");
+}
+export const func2 = () => {
+  console.log("func2実行");
+};
+
+// ex2.関数の定義とexportを分ける
+function func3() {
+  console.log("func3実行");
+}
+export { func3 };
+const func4 = () => {
+  console.log("func4実行");
+};
+export { func4 };
