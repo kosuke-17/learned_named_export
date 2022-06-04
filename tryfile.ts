@@ -46,3 +46,9 @@
 // 名前空間のexport
 // ex1.名前空間を定義しつつ、export
 // ex2.名前空間とexport分ける
+
+// re-export(再エクスポート)
+// ex1.全てをimportしつつ、全てをexport
+// ex.2特定のものだけre-export
+// ex3.importした全てを一つのオブジェクトに束ねてre-exportする
+// ex4.特定のものをオブジェクトにまとめてre-exportする

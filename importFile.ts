@@ -111,3 +111,13 @@ import { Type4 } from "./exportFile";
 import { FizzSpace1 } from "./exportFile";
 // ex2.名前空間とexport分ける
 import { FizzSpace2 } from "./exportFile";
+
+// re-export(再エクスポート)
+// ex1.全てをimportしつつ、全てをexport
+import { reValue, reFunc, reClass } from "./re-export";
+// ex.2特定のものだけre-export
+import { reReValue, reReFunc } from "./re-export";
+// ex3.importした全てを一つのオブジェクトに束ねてre-exportする
+import { reModule } from "./re-export";
+// ex4.特定のものをオブジェクトにまとめてre-exportする
+import { reReModule } from "./re-export";

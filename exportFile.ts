@@ -136,3 +136,7 @@ namespace FizzSpace2 {
   export const value = 1;
 }
 export { FizzSpace2 };
+
+export const reValue = 1;
+export function reFunc() {}
+export class reClass {}
