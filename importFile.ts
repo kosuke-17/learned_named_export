@@ -97,3 +97,11 @@ import { Interface1 } from "./exportFile";
 import { Interface2 } from "./exportFile";
 // ex3.別名でexport
 import { Interface4 } from "./exportFile";
+
+// 型エイリアスのexport
+// ex1.型エイリアスの定義と同時にexport
+import { Type1 } from "./exportFile";
+// ex2.型エイリアスの定義とexport分ける
+import { Type2 } from "./exportFile";
+// ex3.型エイリアスを別名でexport
+import { Type4 } from "./exportFile";

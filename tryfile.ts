@@ -37,3 +37,8 @@
 // ex1.インターフェースの定義と同時にexport
 // ex2.インターフェースの定義とexport分ける
 // ex3.別名でexport
+
+// 型エイリアスのexport
+// ex1.型エイリアスの定義と同時にexport
+// ex2.型エイリアスの定義とexport分ける
+// ex3.型エイリアスを別名でexport

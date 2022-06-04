@@ -115,3 +115,13 @@ export { Interface2 };
 // ex3.別名でexport
 interface Interface3 {}
 export { Interface3 as Interface4 };
+
+// 型エイリアスのexport
+// ex1.型エイリアスの定義と同時にexport
+export type Type1 = "OK" | "NG";
+// ex2.型エイリアスの定義とexport分ける
+type Type2 = "OK" | "NG";
+export { Type2 };
+// ex3.型エイリアスを別名でexport
+type Type3 = "OK" | "NG";
+export { Type3 as Type4 };
