@@ -30,3 +30,19 @@ func2();
 import { func3, func4 } from "./exportFile";
 func3();
 func4();
+
+// 配列のexport
+// ex1.配列の定義と同時にexport
+import { arr1 } from "./exportFile";
+console.log(arr1);
+
+// ex2.タプル型としてexport
+import { arr2 } from "./exportFile";
+console.log(arr2);
+// ex3.分割代入しながらexport
+import { num14, num15, num16 } from "./exportFile";
+console.log({ num14, num15, num16 });
+// ex4.配列を要素と余剰部分に分けながらexport
+import { num17, numArr1 } from "./exportFile";
+console.log(num17);
+console.log(numArr1);

@@ -11,3 +11,9 @@
 // ex1.関数の定義と同時にexport
 // ex2.関数の定義とexportを分ける
 // ex3.
+
+// 配列のexport
+// ex1.配列の定義と同時にexport
+// ex2.タプル型としてexport
+// ex3.分割代入しながらexport
+// ex4.配列を要素と余剰部分に分けながらexport

@@ -58,3 +58,18 @@ const func4 = () => {
   console.log("func4実行");
 };
 export { func4 };
+
+// 配列のexport
+// ex1.配列の定義と同時にexport
+export const arr1 = [1, 2, 3];
+// ex2.タプル型としてexport
+export const arr2 = [1, "hello", true] as const;
+// ex3.分割代入しながらexport
+const arr3 = [1, 2, 3];
+export const [num14, num15, num16] = arr3;
+// ex4.配列を要素と余剰部分に分けながらexport
+const arr4 = [1, 2, 3];
+export const [num17, ...numArr1] = arr4;
+// 実質
+// export const num17 = arr4[0]
+// export const numArr = [arr4[1],arr4[2]]
